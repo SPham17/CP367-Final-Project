@@ -9,7 +9,8 @@ do
 	#check if file exists in directory
 	if [ -f "$j" ];
 	then
-	    ls -l $j
+	    ls -i $j
+#	    ls -l $j
 #	    echo "File is in directory"
 #	else
 #	    echo "File is not in directory"
